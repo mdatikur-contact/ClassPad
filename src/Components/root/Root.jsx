@@ -3,6 +3,7 @@ import SideBar from "../leftSideBar/SideBar";
 import { IoMdSearch } from "react-icons/io";
 import ClassAndMaterials from "../rootClassAndMaterials/ClassAndMaterials";
 import RootGroups from "../rootGroups/RootGroups";
+import RootSemesterInbox from "../rootSemisterInbox/RootSemesterInbox";
 
 const Root = () => {
     return (
@@ -59,7 +60,7 @@ const Root = () => {
                 </div>
 
                 {/* right side body part */}
-                <div className="flex gap-5 h-5/6">
+                <div className="flex gap-5 h-10/12">
 
                     <div className="w-2/3">
                         {/* incoming class and materials part */}
@@ -69,8 +70,8 @@ const Root = () => {
                     <RootGroups></RootGroups>
 
                     </div>
-                    <div className="w-1/3 bg-indigo-50 rounded-lg p-5 ">
-                        Semester progress
+                    <div className="w-1/3 ">
+                        <RootSemesterInbox></RootSemesterInbox>
 
                     </div>
 

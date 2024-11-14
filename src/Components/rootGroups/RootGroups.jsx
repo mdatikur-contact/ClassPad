@@ -27,7 +27,10 @@ const RootGroups = () => {
                         </a>
 
                     </li>
-                    <li className="my-5 hover:bg-white rounded-lg py-2 px-1">
+                    <li className="my-5 hover:bg-white 
+                    transition-all duration-700
+                    rounded-lg
+                     py-2 px-1">
                         <a href="" className="flex items-center  text-sm leading-3 gap-5">
                             <img src={groupIcon} alt="" className="w-10" />
                             <div>
@@ -84,9 +87,13 @@ const RootGroups = () => {
                 </ul>
 
             </div>
-            <div className="mt-auto flex justify-center">
-                <button className="bg-indigo-200 rounded-lg px-5 py-2">+ Create New Group</button>
+            <div className="relative  ">
+                {/* Button positioned half inside, half outside */}
+                <div className="absolute left-1/2 transform -translate-x-1/2 top-14">
+                    <button className="bg-indigo-200 rounded-lg px-2 py-2  w-56">+ Create New Group</button>
+                </div>
             </div>
+
 
 
         </div>
