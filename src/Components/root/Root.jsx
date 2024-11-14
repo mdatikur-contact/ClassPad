@@ -1,12 +1,13 @@
 import { IoNotifications } from "react-icons/io5";
 import SideBar from "../leftSideBar/SideBar";
 import { IoMdSearch } from "react-icons/io";
+import ClassAndMaterials from "../rootClassAndMaterials/ClassAndMaterials";
 
 const Root = () => {
     return (
         <div data-theme="cmyk" className="lg:flex gap-5 font-roboto" >
             {/* left side manu bar*/}
-            <div className="lg:w-1/5 h-screen bg-indigo-100 p-5">
+            <div className="lg:w-1/5 h-screen bg-indigo-50 p-5">
 
                 {/* logo and nav bar part */}
                 <div>
@@ -29,11 +30,11 @@ const Root = () => {
 
 
                         {/* search button */}
-                        <div className="flex justify-center items-center gap-5 h-10 bg-indigo-100 rounded-lg px-2">
+                        <div className="flex justify-center items-center gap-5 h-10 bg-indigo-50 rounded-lg px-2">
                             <span className="text-violet-700 text-2xl"><IoMdSearch /></span>
                             <input
                                 type="search"
-                                className="outline-none flex-grow bg-indigo-100"
+                                className="outline-none flex-grow bg-indigo-50"
                                 placeholder="search here"
                             />
                         </div>
@@ -44,7 +45,7 @@ const Root = () => {
 
                         {/* notification button */}
                         <div className="relative inline-block ">
-                            <button className="rounded-lg bg-indigo-100 p-2 h-10">
+                            <button className="rounded-lg bg-indigo-50 p-2 h-10">
                                 <IoNotifications className="text-violet-700 text-2xl" />
                             </button>
                             {/* uses for notification red dot */}
@@ -60,12 +61,13 @@ const Root = () => {
                 <div className="flex gap-5 h-5/6">
 
                     <div className="w-2/3">
-                        incoming class
+                        {/* incoming class and materials part */}
+                        <ClassAndMaterials></ClassAndMaterials>
                     </div>
-                    <div className="w-1/3 bg-indigo-100 rounded-lg	p-5">Groups
+                    <div className="w-1/3 bg-indigo-50 rounded-lg	p-5">Groups
 
                     </div>
-                    <div className="w-1/3 bg-indigo-100 rounded-lg p-5 ">
+                    <div className="w-1/3 bg-indigo-50 rounded-lg p-5 ">
                         Semester progress
 
                     </div>
