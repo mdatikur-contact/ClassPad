@@ -2,6 +2,7 @@ import { IoNotifications } from "react-icons/io5";
 import SideBar from "../leftSideBar/SideBar";
 import { IoMdSearch } from "react-icons/io";
 import ClassAndMaterials from "../rootClassAndMaterials/ClassAndMaterials";
+import RootGroups from "../rootGroups/RootGroups";
 
 const Root = () => {
     return (
@@ -21,7 +22,7 @@ const Root = () => {
             <div className="  lg:w-4/5 h-screen">
 
                 {/* header part */}
-                <div className=" h-1/6 mt-5 flex justify-between">
+                <div className=" h-1/6 pt-5 flex justify-between">
                     <h1 className="text-4xl font-bold	" >Dashboard</h1>
 
 
@@ -64,7 +65,8 @@ const Root = () => {
                         {/* incoming class and materials part */}
                         <ClassAndMaterials></ClassAndMaterials>
                     </div>
-                    <div className="w-1/3 bg-indigo-50 rounded-lg	p-5">Groups
+                    <div className="w-1/3 bg-indigo-50 rounded-lg	p-5">
+                    <RootGroups></RootGroups>
 
                     </div>
                     <div className="w-1/3 bg-indigo-50 rounded-lg p-5 ">

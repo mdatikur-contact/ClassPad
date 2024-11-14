@@ -10,7 +10,7 @@ import { PiVideoFill } from 'react-icons/pi';
 
 const SideBar = () => {
     return (
-        <div >
+        <div className=''>
             {/* logo section */}
             <div className='flex flex-col items-center my-4'>
                 <div className='flex items-center'>
@@ -25,8 +25,8 @@ const SideBar = () => {
             </div>
 
             {/* side nav bar  */}
-            <div className='my-14'>
-                <ul className='my-10'>
+            <div className='my-14 '>
+                <ul className='my-10 transition-all duration-500'>
                     {/* Dashboard */}
                     <li >
                         <a href=""

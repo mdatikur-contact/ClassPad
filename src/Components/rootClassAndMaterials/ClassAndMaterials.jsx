@@ -1,6 +1,9 @@
 import { BsThreeDotsVertical } from "react-icons/bs";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { RiCalendarScheduleFill } from "react-icons/ri";
+import syllabus from '../images/syllabus.png'
+import routine from '../images/routine.png'
+import shortNote from '../images/short-note.png'
 
 const ClassAndMaterials = () => {
     return (
@@ -9,7 +12,7 @@ const ClassAndMaterials = () => {
             {/* incoming class */}
             <div>
                 {/* incoming class header */}
-                <div className="flex justify-between mb-8">
+                <div className="flex justify-between mb-2">
                     <h3 className="text-xl"> Incoming Lesson</h3>
                     <div className="flex items-center gap-1 ">
                         <button className=" bg-indigo-50 text-violet-600 px-3 py-1 rounded-lg"> Show all</button>
@@ -24,8 +27,10 @@ const ClassAndMaterials = () => {
                 <div>
                     <p>Monday</p>
                     <div className=" " >
-                        <ul className="my-3">
-                            <li className=  "border rounded-lg p-3 hover:shadow-indigo-50 hover:shadow-lg ">
+                        <ul className="my-1">
+                            <li className="border rounded-lg p-1 hover:shadow-indigo-50 hover:shadow-lg 
+                            transition-all 
+                            duration-500  transform ">
                                 <a href="" className="flex items-center gap-5 
                                 justify-between w-full
                                 ">
@@ -53,7 +58,9 @@ const ClassAndMaterials = () => {
                                     </div>
                                 </a>
                             </li>
-                            <li className=  "border rounded-lg p-3 hover:shadow-indigo-50 hover:shadow-lg my-5">
+                            <li className="border rounded-lg p-1 hover:shadow-indigo-50 hover:shadow-lg my-3
+                            transition-all 
+                            duration-500  transform ">
                                 <a href="" className="flex items-center gap-5 
                                 justify-between w-full
                                 ">
@@ -87,9 +94,11 @@ const ClassAndMaterials = () => {
                 <div>
                     <p>Tuesday</p>
                     <div className=" " >
-                        <ul className="my-3">
-                            
-                            <li className=  "border rounded-lg p-3 hover:shadow-indigo-50 hover:shadow-lg my-5">
+                        <ul className="my-1">
+
+                            <li className="border rounded-lg p-1 hover:shadow-indigo-50 hover:shadow-lg mb-2
+                            transition-all 
+                            duration-500  transform ">
                                 <a href="" className="flex items-center gap-5 
                                 justify-between w-full
                                 ">
@@ -129,7 +138,65 @@ const ClassAndMaterials = () => {
 
 
             {/* Materials */}
-            <div>
+            <div >
+                {/* Materials title */}
+                <div>
+                    <h3 className="text-xl">Materials</h3>
+                </div>
+                {/* Materials containers */}
+
+                <div className="pt-4 flex gap-2">
+                    {/* Materials container */}
+                    <div className="card bg-indigo-100 w-48 shadow-xl  
+                    hover:bg-indigo-500 transition-all 
+                    duration-700 ease-in-out transform hover:scale-105">
+                        <div className=" text-indigo-500 hover:text-white p-3 ">
+                            <h2 className="card-title "> Routine</h2>
+                            <p> This is our  Routine</p>
+
+                            <figure>
+                                <img
+                                    className="w-36 hover:text-white p-3"
+                                    src={routine}
+                                    alt=" routine " />
+                            </figure>
+                        </div>
+                    </div>
+                    {/* Materials container */}
+                    <div className="card bg-indigo-100 w-48 shadow-xl  
+                    hover:bg-indigo-500 transition-all 
+                    duration-700 ease-in-out transform hover:scale-105">
+                        <div className=" text-indigo-500 hover:text-white p-3 ">
+                            <h2 className="card-title ">Syllabus</h2>
+                            <p> This is our Syllabus</p>
+
+                            <figure>
+                                <img
+                                    className="w-36 hover:text-white p-3"
+                                    src={syllabus}
+                                    alt="syllabus " />
+                            </figure>
+                        </div>
+                    </div>
+
+                    {/* Materials container */}
+                    <div className="card bg-indigo-100 w-48 shadow-xl  
+                    hover:bg-indigo-500 transition-all 
+                    duration-700 ease-in-out transform hover:scale-105">
+                        <div className=" text-indigo-500 hover:text-white p-3 ">
+                            <h2 className="card-title ">Short Note</h2>
+                            <p> This is our short Note</p>
+
+                            <figure>
+                                <img
+                                    className="w-36 hover:text-white p-3"
+                                    src={shortNote}
+                                    alt="syllabus " />
+                            </figure>
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
         </div>
