@@ -1,5 +1,6 @@
 <h1>ClassPad - Online Classroom Management System</h1>
 ClassPad is an innovative online classroom management system designed to streamline the day-to-day operations of educators and educational institutions. With its user-friendly interface and comprehensive feature set, ClassPad simplifies administrative tasks and enhances the learning experience. </br>
+live link: https://classpad.netlify.app/ </br>
 
 <h2>Key Features</h2>
 
