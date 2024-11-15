@@ -1,5 +1,5 @@
 import { BsThreeDotsVertical } from "react-icons/bs";
-import { FaCalendarCheck, FaReply } from "react-icons/fa6";
+import { FaCalendarCheck } from "react-icons/fa6";
 import profilePhoto from '../images/profile.jpg';
 import { FaTrashAlt } from "react-icons/fa";
 import { RiSendPlaneFill } from "react-icons/ri";
@@ -40,9 +40,9 @@ const RootSemesterInbox = () => {
             </div>
 
             {/* Inbox section */}
-            <div className="bg-indigo-50 rounded-lg py-5 px-5 pt-5">
+            <div className="bg-indigo-50 rounded-lg py-5 px-5 mt-5">
                 {/* Inbox title */}
-                <div className="flex justify-between pb-2 text-xl">
+                <div className="flex justify-between pb-5 text-xl">
                     <h3>Inbox</h3>
                     <span><BsThreeDotsVertical /></span>
                 </div>
