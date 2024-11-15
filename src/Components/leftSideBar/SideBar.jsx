@@ -1,6 +1,6 @@
 import { MdOutlineCastForEducation, MdOutlineMarkEmailUnread, } from 'react-icons/md';
 // import logo
-import logo from '../images/vitualClassLogo.png'
+import logo from '../images/classPad.png'
 // import profile photo
 import profilePhoto from '../images/profile.jpg'
 import { BiSolidDashboard } from "react-icons/bi";
