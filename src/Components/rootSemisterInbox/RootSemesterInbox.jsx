@@ -28,13 +28,13 @@ const RootSemesterInbox = () => {
                         <p className="text-2xl"><span className="text-white">29</span> / 30</p>
                     </div>
                 </div>
-                <div className="bg-white rounded-xl mt-10 p-2 flex gap-5">
+                <div className="bg-white rounded-xl mt-10 p-2 flex items-center gap-5">
                     <div className="text-3xl text-indigo-500">
                         <FaCalendarCheck />
                     </div>
                     <div className="text-gray-300 leading-3">
                         <p>Lesson Progress</p>
-                        <p className="text-2xl">7 days</p>
+                        <p className="text-2xl text-black">7 days</p>
                     </div>
                 </div>
             </div>
@@ -48,11 +48,11 @@ const RootSemesterInbox = () => {
                 </div>
                 <div>
                     {/* Personal inbox */}
-                    <div className="relative group mb-2 transition-all duration-300">
+                    <div className="relative group mb-2 ">
                         {/* Message container */}
                         <div className="bg-white rounded-lg py-2 flex items-center 
                             transform group-hover:translate-x-[-120px] 
-                            transition-transform duration-300">
+                            transition-transform duration-700">
 
                             {/* Left side: Profile and message */}
                             <div className="flex gap-5 items-center ">
@@ -109,7 +109,7 @@ const RootSemesterInbox = () => {
                         {/* Message container */}
                         <div className="bg-white rounded-lg py-2 flex items-center 
                             transform group-hover:translate-x-[-120px] 
-                            transition-transform duration-300">
+                            transition-transform duration-700">
 
                             {/* Left side: Profile and message */}
                             <div className="flex gap-5 items-center">
