@@ -15,7 +15,7 @@ const SideBar = () => {
             <div className='flex flex-col items-center my-4 '>
                 <div className='lg:flex items-center'>
                     <img src={logo} alt="" className='lg:w-20' />
-                    <h2 className='lg:text-4xl font-bold  text-violet-600'>ClassPad</h2>
+                    <h2 className='lg:text-3xl font-bold  text-violet-600'>ClassPad</h2>
                 </div>
                 <div>
                     <button className=" bg-violet-500 text-white px-5 py-1 rounded-md font-bold">+ Add New</button>
