@@ -10,12 +10,12 @@ import { PiVideoFill } from 'react-icons/pi';
 
 const SideBar = () => {
     return (
-        <div className=''>
+        <div  >
             {/* logo section */}
-            <div className='flex flex-col items-center my-4'>
-                <div className='flex items-center'>
-                    <img src={logo} alt="" className='w-20' />
-                    <h2 className='text-4xl font-bold  text-violet-600'>ClassPad</h2>
+            <div className='flex flex-col items-center my-4 '>
+                <div className='lg:flex items-center'>
+                    <img src={logo} alt="" className='lg:w-20' />
+                    <h2 className='lg:text-4xl font-bold  text-violet-600'>ClassPad</h2>
                 </div>
                 <div>
                     <button className=" bg-violet-500 text-white px-5 py-1 rounded-md font-bold">+ Add New</button>
@@ -38,7 +38,7 @@ const SideBar = () => {
                         hover:text-violet-500
                         active:text-violet-700'>
                             <BiSolidDashboard />
-                            <h3>Dashboard</h3>  </a>
+                            <h3>Dashboard</h3>  </a> 
                     </li>
 
                     {/* Incoming Lesson */}
@@ -125,7 +125,7 @@ const SideBar = () => {
 
 
             {/* side bar profile section */}
-            <div className='mt-28 ml-10'>
+            <div className='pt-16 ml-10'>
                 <div className=' flex gap-3 items-center'>
                     {/* profile photo  */}
                     <div className="avatar">

@@ -9,7 +9,7 @@ const Root = () => {
     return (
         <div data-theme="cmyk" className="lg:flex gap-5 font-roboto" >
             {/* left side manu bar*/}
-            <div className="lg:w-1/5 h-screen bg-indigo-50 p-5">
+            <div className="lg:w-1/5  bg-indigo-50 px-5">
 
                 {/* logo and nav bar part */}
                 <div>

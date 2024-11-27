@@ -86,7 +86,7 @@ const RootSemesterInbox = () => {
 
 
                                 </button>
-                                <button className="text-white hover:bg-red-400 flex items-center ">
+                                <button className="text-gray-500 hover:bg-red-400 flex items-center ">
 
                                     <div className="flex flex-col items-center  py-6 px-3 ">
                                         <span><FaTrashAlt /></span>
@@ -112,9 +112,9 @@ const RootSemesterInbox = () => {
                             transition-transform duration-700">
 
                             {/* Left side: Profile and message */}
-                            <div className="flex gap-5 items-center">
+                            <div className="flex gap-5 items-center w-60">
                                 <div className="avatar offline">
-                                    <div className="w-16 h-16 rounded-full">
+                                    <div className="w-16 h-16 rounded-full ">
                                         <img src={profilePhoto} alt="Profile" />
                                     </div>
                                 </div>
@@ -143,7 +143,7 @@ const RootSemesterInbox = () => {
 
 
                                 </button>
-                                <button className="text-white hover:bg-red-400 flex items-center ">
+                                <button className="text-gray-500 hover:bg-red-400 flex items-center ">
 
                                     <div className="flex flex-col items-center  py-6 px-3 ">
                                         <span><FaTrashAlt /></span>
